@@ -1,0 +1,50 @@
+body
+{
+    margin: 0;
+    background-color: white;
+
+}
+.container
+{
+    width: 900px;
+    margin:0 auto 50px auto;
+    padding-bottom: 10px;
+    background-color: white;
+    box-shadow: 35px 30px 20px rgb(0, 0, 0, 20%), -35px 30px 20px rgb(0, 0, 0, 20%);
+}
+.title
+{
+    background-color:rgba(0, 0, 0, 0.8);
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.text-title
+{
+    color: white;
+    border-left-style:dotted ;
+    border-right-style: dotted;
+    border-width: 1px;
+    padding: 0 7px;
+}
+.ourwork
+{
+    width: 900px;
+    height: 70vh;
+    display: block;
+
+}
+.title2
+{
+    text-align:center;
+}
+.contact
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.address
+{
+    text-decoration: none;
+}

@@ -1,0 +1,60 @@
+body
+{
+    margin: 0;
+    background-color: white;
+
+}
+.container
+{
+    width: 900px;
+    margin: auto;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    box-shadow: 35px 0 20px rgb(0, 0, 0, 20%), -35px 0 20px rgb(0, 0, 0, 20%)  
+}
+.text1
+{
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title
+{
+    width: 200px;
+    text-align: center;
+    text-shadow:-3px -3px 3px grey;
+}
+.title2
+{
+    color:silver;
+    text-align: center;
+}
+.btn
+{
+    text-decoration: none;                                                                                                                                                                                                                                                                                        
+    border: solid 1px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    border-color: orangered;
+    color: black;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: black;
+    color: white;
+
+}
+.himage
+{
+    width: 600px;
+    height: 100vh;
+    background-image: url(images/photo1.jfif);
+    background-position: center;
+    background-size: cover;
+}
